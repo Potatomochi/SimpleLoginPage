@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #28255c;
+    transition: 0.3s;
+}
+a:hover{
+    color: #c24b80;
+    
+}
+a:visited {
+    color: #c24b80;
+}
+label {
+    margin-bottom: 10px;
+    display: block;
+    margin-top:10px;
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #ccaa7e;
+
+    
+}
+
+.content{
+    padding-top: 11%;
+    
+    
+}
+
+.form {
+    background-color: #f2f2f2;
+    padding: 10px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 50%;
+    margin-left: 25%;
+  }
+.header{
+    padding-left: 20%;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+.header h1{
+    margin-bottom:2%;
+}
+.header p{
+    margin-top:5px;
+}
+.inputText{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+.subButton {
+    width: 250px;
+    margin-bottom:20px;
+    padding:12px 0px 12px 0px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+}
+
+.subButton:hover {
+    cursor: pointer;
+}
+
+.ShowUser a{
+    margin-left:20%;
+}

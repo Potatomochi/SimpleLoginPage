@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\weatherification-samapp\\web-server"
+		},
+		{
+			"path": "..\\..\\task-app"
+		}
+	],
+	"settings": {}
+}

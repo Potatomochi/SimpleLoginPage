@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Noah Sam">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+   
+    <title>Login Test</title>
+    </head>
+    <body>
+       <div class="wrapper">
+           <div class="content">
+            <div class="header">
+                <h1>A Simple Login Form</h1>
+                <p>This form sends a post request to a local server, stores user data and returns a page corresponding to whether the user has logged in or not.</p>
+                <p>Do note that this is a very beta application, covering the barebones basic of using passport, express, handlebars and nodejs with html and css to create what you see here</p>
+                <p>This app was created for the purpose of showcasing my ability to handle creating this login form but if you use it for testing or educational purposes go ahead.</p>
+            </div>
+            <div class="form">
+                    <h1> Register here </h1>
+                    <form method="post" action="/submit-form" id="loginForm">
+                        <label for="fname">Username</label>
+                        <input type="text" name="username" placeholder="Enter Your Username here" class="inputText"/>
+                        <label for="fpass">Password</label>
+                        <input type="password" name="password" placeholder="Enter A Password" class="inputText"/>  
+                        <label for="fname">Email Address</label>
+                        <input type="email" name="email" class="inputText" placeholder="Enter An Email Address"/>  
+                        <input type="submit" value="Submit" class="subButton"  />
+                    </form>
+            <p> Already Registered ?</p>
+            <a href="/loginPage">Login Here </a>
+            </div>
+            </div>
+
+       </div>
+    </body>
+
+</html>
